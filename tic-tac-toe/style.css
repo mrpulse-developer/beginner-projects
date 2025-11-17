@@ -1,0 +1,115 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f2;
+  font-family: cursive;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 450px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* HEADING */
+.container h1 {
+  text-align: center;
+  background-color: rebeccapurple;
+  color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* TIC TAC TOE GRID */
+.buttons {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttons button {
+  height: 65px;
+  width: 65px;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.buttons button:hover {
+  background-color: #eee;
+}
+
+/* PLAYER SCORE SECTION */
+.player {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 35px;
+  padding: 10px;
+}
+
+.plr-box {
+  width: 130px;
+  text-align: center;
+  background-color: #fff;
+  padding: 15px 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 6px #ccc;
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 8px;
+  color: rebeccapurple;
+}
+
+#score-plr1,
+#score-plr2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* WINNER DISPLAY */
+.wining-player {
+  margin-top: 25px;
+  text-align: center;
+}
+
+#winner {
+  font-size: 28px;
+  font-weight: bold;
+  color: rebeccapurple;
+}
+
+/* RESPONSIVE */
+@media (max-width: 430px) {
+  .buttons {
+    width: 170px;
+  }
+  .buttons button {
+    height: 55px;
+    width: 55px;
+    font-size: 26px;
+  }
+  .plr-box {
+    width: 120px;
+    padding: 12px;
+  }
+  .icon {
+    font-size: 35px;
+  }
+}

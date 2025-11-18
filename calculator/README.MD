@@ -35,6 +35,6 @@ Every line of code taught me something.
 This project might be small — but for me, it represents growth, patience, and not giving up.
 
 🔗 GitHub Repository:
-👉 your GitHub link here
+👉 https://mrpulse-developer.github.io/beginner-projects/calculator/
 
 #HTML #CSS #JavaScript #FrontendDeveloper #BeginnerToPro #WebDevelopment #CodersLife #LearningJourney #GitHub #CalculatorProject #TechJourney #NeverStopLearning
